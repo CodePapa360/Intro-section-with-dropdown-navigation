@@ -7,16 +7,26 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 
 <!-- Badges -->
 <div align="center">
+
   <!-- Live -->
 
-[![Live demo](https://custom-icon-badges.demolab.com/badge/Live demo-blue?labelColor=gray&style=for-the-badge&logo=live360)](https://intro-section-with-dropdown-navigation-codepapa360.vercel.app/)
+[![Live Demo](https://custom-icon-badges.demolab.com/badge/Live%20Demo-blue?labelColor=gray&style=for-the-badge&logo=live360&link=https://google.com)](https://intro-section-with-dropdown-navigation-codepapa360.vercel.app/)
 
   <!-- FrontendMentor -->
 
 [![FrontendMentor](https://img.shields.io/badge/Frontendmentor-100000?style=for-the-badge&logo=frontendmentor&logoColor=white&labelColor=666666&color=2490A9)]()
 
+</div>
+
+<hr>
+
+<div align="center">
+
   <!-- Status -->
-<img src="https://img.shields.io/badge/Status-Completed-00CD4C?style=for-the-badge" alt="Project Status">
+
+![Status](https://img.shields.io/badge/Status-Completed-success?style=flat)
+
+![License](https://img.shields.io/badge/License-MIT-blue?style=flat)
 
 </div>
 
