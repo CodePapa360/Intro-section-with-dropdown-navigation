@@ -10,7 +10,7 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 
 <!-- Live -->
 <a href="https://intro-section-with-dropdown-navigation-codepapa360.vercel.app/">
-    <img src="https://custom-icon-badges.demolab.com/badge/Live%20Demo-blue?style=for-the-badge&logo=live360" alt="Live Demo" />
+    <img src="https://custom-icon-badges.demolab.com/badge/Live%20Demo-blue?style=for-the-badge&logo=live360&labelColor=666666" alt="Live Demo" />
 </a>
 
 <!-- Frontend Mentor -->
