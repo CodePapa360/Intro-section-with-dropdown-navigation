@@ -8,10 +8,12 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 <!-- Badges -->
 <div align="center">
 
+<!-- Live -->
 <a href="https://intro-section-with-dropdown-navigation-codepapa360.vercel.app/">
     <img src="https://custom-icon-badges.demolab.com/badge/Live%20Demo-blue?style=for-the-badge&logo=live360" alt="Live Demo" />
 </a>
 
+<!-- Frontend Mentor -->
 <a href="#">
     <img src="https://img.shields.io/badge/Frontendmentor-100000?style=for-the-badge&logo=frontendmentor&logoColor=white&labelColor=666666&color=2490A9"  alt="FrontendMentor">
 </a>
@@ -20,8 +22,13 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/Status-Completed-success?style=flat" alt="Status" />
+<!-- Status -->
 
+<img src="https://img.shields.io/badge/Status-Incomplete-red?style=flat" alt="Status" />
+
+<!-- <img src="https://img.shields.io/badge/Status-Completed-success?style=flat" alt="Status" /> -->
+
+<!-- Liceensee -->
 <img src="https://img.shields.io/badge/License-MIT-blue?style=flat" alt="License" />
 
 </div>
