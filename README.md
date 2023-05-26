@@ -16,12 +16,6 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 
 [![FrontendMentor](https://img.shields.io/badge/Frontendmentor-100000?style=for-the-badge&logo=frontendmentor&logoColor=white&labelColor=666666&color=2490A9)]()
 
-</div>
-
-<hr>
-
-<div align="center">
-
   <!-- Status -->
 
 ![Status](https://img.shields.io/badge/Status-Completed-success?style=flat)
