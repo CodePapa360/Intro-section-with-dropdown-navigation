@@ -7,16 +7,13 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
 
 <!-- Badges -->
 <div align="center">
-
   <!-- Live -->
-  <a href="https://intro-section-with-dropdown-navigation-codepapa360.vercel.app/">
-    <img src="https://custom-icon-badges.demolab.com/badge/Live demo-blue?labelColor=gray&style=for-the-badge&logo=live360" alt="Live demo">
-    </a>
+
+[![Live demo](https://custom-icon-badges.demolab.com/badge/Live demo-blue?labelColor=gray&style=for-the-badge&logo=live360)](https://intro-section-with-dropdown-navigation-codepapa360.vercel.app/)
+
   <!-- FrontendMentor -->
 
-<a href='#' target="_blank">
-    <img alt='frontendmentor' src='https://img.shields.io/badge/Frontendmentor-100000?style=for-the-badge&logo=frontendmentor&logoColor=white&labelColor=3f54a3&color=35C7B0'/>
-</a>
+[![FrontendMentor](https://img.shields.io/badge/Frontendmentor-100000?style=for-the-badge&logo=frontendmentor&logoColor=white&labelColor=666666&color=2490A9)]()
 
   <!-- Status -->
 <img src="https://img.shields.io/badge/Status-Completed-00CD4C?style=for-the-badge" alt="Project Status">
