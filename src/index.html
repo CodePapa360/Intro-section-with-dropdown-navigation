@@ -3,54 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
     <!--  -->
+    <!-- Primary Meta Tags -->
+    <title>
+      Intro section with dropdown navigation | Frontend Mentor | Alamin
+    </title>
     <meta
-      property="og:title"
+      name="title"
       content="Intro section with dropdown navigation | Frontend Mentor | Alamin"
     />
+    <meta name="description" content="" />
 
-    <meta name="description" content="dd" />
-
-    <meta property="og:description" content="dd" />
-
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta
+      property="og:url"
+      content="https://intro-section-with-dropdown-navigation-codepapa360.vercel.app/"
+    />
+    <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
     <meta
       property="og:image"
       content="https://raw.githubusercontent.com/CodePapa360/Intro-section-with-dropdown-navigation/main/screenshots/Intro-section-with-dropdown-navigation-screenshot-codepapa360.png"
     />
 
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image" />
     <meta
-      property="og:url"
+      property="twitter:url"
       content="https://intro-section-with-dropdown-navigation-codepapa360.vercel.app/"
     />
-
-    <meta name="author" content="Alamin | CodePapa360" />
-
-    <meta name="keywords" content=", CodePapa360, Alamin" />
-
-    <meta name="twitter:card" content="summary_large_image" />
-
     <meta
-      name="twitter:title"
+      property="twitter:title"
       content="Intro section with dropdown navigation | Frontend Mentor | Alamin"
     />
-
+    <meta property="twitter:description" content="" />
     <meta
-      name="twitter:site"
-      content="@https://intro-section-with-dropdown-navigation-codepapa360.vercel.app/"
-    />
-
-    <meta name="twitter:description" content="dd" />
-
-    <meta
-      name="twitter:image"
+      property="twitter:image"
       content="https://raw.githubusercontent.com/CodePapa360/Intro-section-with-dropdown-navigation/main/screenshots/Intro-section-with-dropdown-navigation-screenshot-codepapa360.png"
     />
 
-    <meta
-      name="twitter:image:alt"
-      content="Intro section with dropdown navigation | Frontend Mentor | Alamin"
-    />
+    <!-- Optional -->
+    <meta name="author" content="Alamin | CodePapa360" />
+    <meta name="keywords" content=", CodePapa360, Alamin" />
     <!--  -->
 
     <link
@@ -59,38 +54,97 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
-
-    <title>
-      Intro section with dropdown navigation | Frontend Mentor | Alamin
-    </title>
   </head>
   <body>
     <header>
-      <div class="logo">
-        <img src="./images/logo.svg" alt="Logo image" />
+      <a href="#" aria-label="logo"
+        ><img src="./images/logo.svg" alt="snap's logo" class="logo"
+      /></a>
+
+      <div class="menu">
+        <img src="./images/icon-menu.svg" alt="Hamberger icon" />
       </div>
 
-      <ul>
-        <li>
-          Features
-          <span
-            ><img src="./images/icon-arrow-down.svg" alt="Down arrow"
-          /></span>
-        </li>
-        <li>
-          Company
-          <span
-            ><img src="./images/icon-arrow-down.svg" alt="Down arrow"
-          /></span>
-        </li>
-        <li>Careers</li>
-        <li>About</li>
-      </ul>
+      <nav>
+        <ul class="nav-links">
+          <li class="nav-link">
+            <a href="#" aria-label="features" class="dropdown">
+              <span>Features</span>
+              <img
+                src="./images/icon-arrow-up.svg"
+                alt="arrow up"
+                class="arrow-up"
+              />
+              <img
+                src="./images/icon-arrow-down.svg"
+                alt="arrow down"
+                class="arrow-down"
+              />
+            </a>
+            <ul class="dropdown-list">
+              <li class="dropdown-link">
+                <a href="#" aria-label="todo-list">
+                  <img src="./images/icon-todo.svg" alt="todo-list icon" />
+                  <span>Todo List</span>
+                </a>
+              </li>
+              <li class="dropdown-link">
+                <a href="#" aria-label="calender">
+                  <img src="./images/icon-calendar.svg" alt="calender icon" />
+                  <span>Calender</span>
+                </a>
+              </li>
+              <li class="dropdown-link">
+                <a href="#" aria-label="reminders">
+                  <img src="./images/icon-reminders.svg" alt="bell icon" />
+                  <span>Reminders</span>
+                </a>
+              </li>
+              <li class="dropdown-link">
+                <a href="#" aria-label="planning">
+                  <img src="./images/icon-planning.svg" alt="clock icon" />
+                  <span>Planning</span>
+                </a>
+              </li>
+            </ul>
+          </li>
 
-      <div>
-        <button class="btn btn-login" type="button">Login</button>
-        <button class="btn btn-register" type="button">Register</button>
-      </div>
+          <li class="nav-link">
+            <a href="#" aria-label="company" class="dropdown">
+              <span>Company</span>
+              <img
+                src="./images/icon-arrow-up.svg"
+                alt="arrow up"
+                class="arrow-up"
+              />
+              <img
+                src="./images/icon-arrow-down.svg"
+                alt="arrow down"
+                class="arrow-down"
+              />
+            </a>
+            <ul class="dropdown-list">
+              <li class="dropdown-link">
+                <a href="#" aria-label="history">History</a>
+              </li>
+              <li class="dropdown-link">
+                <a href="#" aria-label="our-team">Our Team</a>
+              </li>
+              <li class="dropdown-link">
+                <a href="#" aria-label="blog">Blog</a>
+              </li>
+            </ul>
+          </li>
+
+          <li class="nav-link"><a href="#" aria-label="careers">Careers</a></li>
+          <li class="nav-link"><a href="#" aria-label="about">About</a></li>
+        </ul>
+
+        <div>
+          <button class="btn btn-login" type="button">Login</button>
+          <button class="btn btn-register" type="button">Register</button>
+        </div>
+      </nav>
     </header>
 
     <main class="main-contents">
@@ -118,5 +172,30 @@
         <img src="./images/client-maker.svg" alt="Maker logo" />
       </div>
     </main>
+
+    <footer class="footer">
+      <div class="attribution-wrapper">
+        <p class="attribution">
+          <span>
+            Coded by
+            <a
+              class="attb-link"
+              href="https://twitter.com/CodePapa360"
+              target="_blank"
+              >Alamin</a
+            >
+          </span>
+          <span>
+            Challenge by
+            <a
+              class="attb-link attb-fem"
+              href="https://www.frontendmentor.io/profile/CodePapa360"
+              target="_blank"
+              >Frontend Mentor</a
+            >
+          </span>
+        </p>
+      </div>
+    </footer>
   </body>
 </html>

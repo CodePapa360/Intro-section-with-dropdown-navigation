@@ -1,10 +1,15 @@
 :root {
+  --almost-white: hsl(0, 0%, 98%);
+  --medium-gray: hsl(0, 0%, 41%);
+  --almost-black: hsl(0, 0%, 8%);
 }
 
 body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+
+  font-family: "Epilogue", sans-serif;
 }
 
 .footer {
