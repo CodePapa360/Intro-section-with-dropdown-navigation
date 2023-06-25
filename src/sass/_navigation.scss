@@ -27,6 +27,8 @@
     align-items: center;
     display: flex;
 
+    right: 0;
+
     transform: translateX(0);
   }
 
@@ -48,10 +50,6 @@
 
       a {
         color: inherit;
-
-        // img {
-        //   display: inline;
-        // }
 
         &:hover {
           color: var(--almost-black);
@@ -93,7 +91,7 @@
     @media screen and (min-width: $bp-large) {
       position: absolute;
       padding: var(--sp1);
-      box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
       border-radius: 10px;
       width: max-content;
     }

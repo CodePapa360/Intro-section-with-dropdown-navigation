@@ -10,13 +10,9 @@
 $bp-medium: 700px;
 $bp-large: 1080px;
 
-// html {
-//   font-size: 16px;
-
-//   @media screen and (min-width: $bp-large) {
-//     font-size: 25px;
-//   }
-// }
+html {
+  overflow-x: hidden;
+}
 
 body {
   display: flex;

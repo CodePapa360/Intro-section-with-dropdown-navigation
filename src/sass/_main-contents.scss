@@ -69,11 +69,7 @@
     .btn {
       background-color: var(--almost-black);
       color: var(--almost-white);
-      border: 1px solid var(--almost-black);
       margin-bottom: var(--sp1-2);
-
-      transition: all 0.3s ease;
-      cursor: pointer;
 
       &:hover,
       &:active {
