@@ -1,0 +1,112 @@
+.main-contents {
+  display: grid;
+  grid-template-areas:
+    "hero"
+    "headings"
+    "clients";
+  grid-template-columns: 1fr;
+
+  max-width: $bp-medium;
+  margin: auto;
+
+  @media screen and (min-width: $bp-large) {
+    grid-template-areas:
+      "headings hero"
+      "clients hero";
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+
+    gap: 4rem;
+
+    max-width: 1100px;
+  }
+
+  .hero-image {
+    grid-area: hero;
+
+    @media screen and (min-width: $bp-large) {
+      img {
+        content: url(../images/image-hero-desktop.png);
+      }
+    }
+  }
+
+  .headings {
+    grid-area: headings;
+    text-align: center;
+    padding: var(--sp1);
+    margin-top: var(--sp1-2);
+
+    @media screen and (min-width: $bp-large) {
+      text-align: left;
+      margin-top: 8rem;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      color: var(--almost-black);
+      margin-bottom: var(--sp1);
+      line-height: 1;
+
+      @media screen and (min-width: $bp-large) {
+        font-size: 4.5rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+    h2 {
+      font-size: 1rem;
+      font-weight: 500;
+      color: var(--medium-gray);
+      margin-bottom: var(--sp1);
+
+      @media screen and (min-width: $bp-large) {
+        font-size: 1.3rem;
+        margin-bottom: 2rem;
+      }
+    }
+
+    .btn {
+      background-color: var(--almost-black);
+      color: var(--almost-white);
+      border: 1px solid var(--almost-black);
+      margin-bottom: var(--sp1-2);
+
+      transition: all 0.3s ease;
+      cursor: pointer;
+
+      &:hover,
+      &:active {
+        background-color: var(--almost-white);
+        border-color: var(--medium-gray);
+        color: var(--almost-black);
+      }
+    }
+  }
+
+  .clients {
+    grid-area: clients;
+
+    padding: var(--sp1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--sp1-2);
+
+    @media screen and (min-width: $bp-large) {
+      padding: 0 var(--sp1);
+      align-items: flex-end;
+    }
+  }
+}
+
+.btn {
+  background-color: var(--almost-white);
+  color: inherit;
+  border: 1px solid var(--almost-black);
+  padding: 0.6rem 1.4rem;
+  border-radius: 15px;
+
+  transition: all 0.3s ease;
+  cursor: pointer;
+}

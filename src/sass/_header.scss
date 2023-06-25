@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: var(--sp1-2) var(--sp1);
+  position: relative;
+
+  .logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+  }
+
+  .hamberger-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    cursor: pointer;
+
+    .menu-close-icon {
+      display: none;
+    }
+
+    @media screen and (min-width: $bp-large) {
+      display: none;
+    }
+  }
+}

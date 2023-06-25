@@ -56,16 +56,13 @@
     />
   </head>
   <body>
-    <header>
-      <a href="#" aria-label="logo"
-        ><img src="./images/logo.svg" alt="snap's logo" class="logo"
+    <div id="overlay"></div>
+    <header class="header">
+      <a class="logo" href="#" aria-label="logo"
+        ><img src="./images/logo.svg" alt="snap's logo"
       /></a>
 
-      <div class="menu">
-        <img src="./images/icon-menu.svg" alt="Hamberger icon" />
-      </div>
-
-      <nav>
+      <nav class="navigation">
         <ul class="nav-links">
           <li class="nav-link">
             <a href="#" aria-label="features" class="dropdown">
@@ -81,7 +78,7 @@
                 class="arrow-down"
               />
             </a>
-            <ul class="dropdown-list">
+            <ul class="dropdown-list feature-dropdown">
               <li class="dropdown-link">
                 <a href="#" aria-label="todo-list">
                   <img src="./images/icon-todo.svg" alt="todo-list icon" />
@@ -140,11 +137,24 @@
           <li class="nav-link"><a href="#" aria-label="about">About</a></li>
         </ul>
 
-        <div>
+        <div class="nav-btns">
           <button class="btn btn-login" type="button">Login</button>
           <button class="btn btn-register" type="button">Register</button>
         </div>
       </nav>
+
+      <div class="hamberger-menu">
+        <img
+          class="menu-open-icon"
+          src="./images/icon-menu.svg"
+          alt="Hamberger open icon"
+        />
+        <img
+          class="menu-close-icon"
+          src="./images/icon-close-menu.svg"
+          alt="Hamberger close icon"
+        />
+      </div>
     </header>
 
     <main class="main-contents">
@@ -152,24 +162,32 @@
         <img src="./images/image-hero-mobile.png" alt="Hero image" />
       </div>
 
-      <section>
+      <section class="headings">
         <h1>Make remote work</h1>
         <h2>
           Get your team in sync, no matter your location. Streamline processes,
           create team rituals, and watch productivity soar.
         </h2>
 
-        <button type="btn btn-cta">Learn more</button>
+        <button type="button" class="btn btn-cta">Learn more</button>
       </section>
 
       <div class="clients">
-        <img src="./images/client-databiz.svg" alt="Databiz logo" />
+        <div>
+          <img src="./images/client-databiz.svg" alt="Databiz logo" />
+        </div>
 
-        <img src="./images/client-audiophile.svg" alt="Audiophile logo" />
+        <div>
+          <img src="./images/client-audiophile.svg" alt="Audiophile logo" />
+        </div>
 
-        <img src="./images/client-meet.svg" alt="Meet logo" />
+        <div>
+          <img src="./images/client-meet.svg" alt="Meet logo" />
+        </div>
 
-        <img src="./images/client-maker.svg" alt="Maker logo" />
+        <div>
+          <img src="./images/client-maker.svg" alt="Maker logo" />
+        </div>
       </div>
     </main>
 
