@@ -17,7 +17,9 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges)
 <a href="#">
     <img src="https://img.shields.io/badge/Frontendmentor-100000?style=for-the-badge&logo=frontendmentor&logoColor=white&labelColor=666666&color=2490A9"  alt="FrontendMentor">
 </a>
+</div>
 
+<div align="center">
 <!-- Status -->
 
 <!-- <img src="https://img.shields.io/badge/Status-Incomplete-red?style=flat" alt="Status" /> -->
@@ -26,7 +28,6 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges)
 
 <!-- Liceensee -->
 <img src="https://img.shields.io/badge/License-MIT-blue?style=flat" alt="License" />
-
 </div>
 
 <hr>
