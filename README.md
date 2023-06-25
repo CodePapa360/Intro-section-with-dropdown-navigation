@@ -1,7 +1,7 @@
 <h1 align="center">Intro section with dropdown navigation</h1>
 <div align="center">
 
-Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa360)
+Challenge from [Frontend Mentor](https://www.frontendmentor.io/challenges)
 
 </div>
 
@@ -18,30 +18,33 @@ Challenge from [Frontend Mentor](https://www.frontendmentor.io/profile/CodePapa3
     <img src="https://img.shields.io/badge/Frontendmentor-100000?style=for-the-badge&logo=frontendmentor&logoColor=white&labelColor=666666&color=2490A9"  alt="FrontendMentor">
 </a>
 
-</div>
-
-<div align="center">
-
 <!-- Status -->
 
-<img src="https://img.shields.io/badge/Status-Incomplete-red?style=flat" alt="Status" />
+<!-- <img src="https://img.shields.io/badge/Status-Incomplete-red?style=flat" alt="Status" /> -->
 
-<!-- <img src="https://img.shields.io/badge/Status-Completed-success?style=flat" alt="Status" /> -->
+<img src="https://img.shields.io/badge/Status-Completed-success?style=flat" alt="Status" />
 
 <!-- Liceensee -->
 <img src="https://img.shields.io/badge/License-MIT-blue?style=flat" alt="License" />
 
 </div>
 
-<div align="center">
+<hr>
 
+<div align="center">
+<!-- Project brief -->
+<p>
+This repository contains my solution to the Frontend Mentor challenge "Intro section with dropdown navigation". The challenge was to build a responsive intro section with dropdown navigation using HTML, CSS, and JavaScript. The solution is a modern intro section that adapts to different screen sizes. It is sure to impress visitors with its clean design and smooth animations.
 </p>
 
+<!-- Screenshot -->
 <a align="center" href="https://intro-section-with-dropdown-navigation-codepapa360.vercel.app/">
 
 ![Screenshot](./screenshots/Intro-section-with-dropdown-navigation-screenshot-codepapa360.png)
 
 </a>
+
+</div>
 
 ## The challenge
 
