@@ -10,6 +10,7 @@ const overlay = document.querySelector("#overlay");
 dropdownParent.addEventListener("click", function (e) {
   const drop = e.target.closest(".dropdown");
   if (!drop) return;
+  e.preventDefault();
 
   dropdownAll.forEach((el) => {
     if (el !== drop) el.classList.remove("expanded");
