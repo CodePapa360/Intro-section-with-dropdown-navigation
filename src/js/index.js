@@ -24,3 +24,14 @@ dropdownParent.addEventListener("click", function (e) {
     overlay.classList.toggle("open");
   });
 });
+
+document.addEventListener("click", function (e) {
+  const targetElement = e.target;
+  const isClickInsideDropdown = dropdownParent.contains(targetElement);
+
+  if (!isClickInsideDropdown) {
+    dropdownAll.forEach((el) => {
+      el.classList.remove("expanded");
+    });
+  }
+});
